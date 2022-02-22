@@ -1,0 +1,98 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+h1, h2, p {
+    margin-top: 0;
+}
+
+header {
+    padding: 20px 30px;
+    box-shadow: 0 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    height: 30px; 
+}
+
+.nav--logo {
+    display: block;
+    max-height: 100%;
+    max-width: 100px;
+}
+
+.hero-section {
+    margin: 1.625em 2.25em;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-img {
+    display: block;
+    max-width: 24.75rem;
+    order: 1;
+    margin-bottom: 2em;
+    align-self: center;
+}
+
+.hero-title {
+    font-size: 2.25rem;
+    order: 2;
+    margin-bottom: 0.45em;
+}
+
+.hero-desc {
+    order: 3;
+    max-width: 20rem;
+}
+
+.card-section {
+    margin: 1.625em 2.25em;
+    display: flex;
+    gap: 20px;
+}
+
+.card-component {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+}
+
+.card-img {
+    max-width: 11rem;
+    border-radius: 9px;
+    margin-bottom: 1em;
+}
+
+.rating {
+    order: 1;
+    display: flex;
+}
+
+.rating-info {
+    margin-bottom: 0;
+}
+
+.star-img {
+    height: 14px;
+}
+
+.card-title {
+    order: 2;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-bottom: 0.67em;
+}
+
+.card-price {
+    order: 3;
+}
